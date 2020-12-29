@@ -135,4 +135,5 @@ $ mysql # on another terminal
 mysql> UPDATE mysql.user SET password=PASSWORD('new_pass') WHERE user='root';
 ## Switch back to the mysqld_safe terminal and kill the process using Control + \
 $ /etc/init.d/mysql start
+
 Your commands may vary depending on your OS.
